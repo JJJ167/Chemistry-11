@@ -1,0 +1,1092 @@
+.navdiv {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color:  rgb(182, 181, 181);
+}
+
+
+.logo a{
+    font-size: 40px;
+    font-weight: 1000;
+    color: grey;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(230, 230, 230);
+    max-height: fit-content;
+    font-family: Arial, sans-serif;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    min-height: 80;
+    
+
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keep it above other content */
+}
+
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    display: none; /* Hide by default */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show when menu is active */
+  }
+}
+
+.dropdownnnn{
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+}
+.dropdownnnn button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 999;
+}
+
+.dropdown3 a{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.dropdownnnn .link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+
+
+.dropdownnnn .dropdownnnn-content{
+    display:none;
+    position: absolute;
+    background-color:rgb(210, 210, 210);
+    min-width: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdownnnn:hover .dropdownnnn-content{
+    display: block;
+}
+
+.dropdownnnn:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+.dropdownnnn .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+.dropdown3 .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+
+
+
+.dropdownnn{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.dropdownnn button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 999;
+}
+
+.dropdownnn .link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdownnn .dropdownnn-content{
+    display:none;
+    position: absolute;
+    background-color:rgb(210, 210, 210);
+    min-width: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdownnn:hover .dropdownnn-content{
+    display: block;
+}
+
+.dropdownnn:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+.dropdownnn .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+
+
+
+
+.dropdownn{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.dropdownn button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 999;
+}
+
+.dropdownn .link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdownn .dropdownn-content{
+    display:none;
+    position: absolute;
+    background-color:rgb(210, 210, 210);
+    min-width: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdownn:hover .dropdownn-content{
+    display: block;
+}
+
+.dropdownn:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+.dropdownn .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+
+
+
+
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.dropdown button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 999;
+}
+
+.dropdown .link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .dropdown-content{
+    display:none;
+    position: absolute;
+    background-color:rgb(210, 210, 210);
+    min-width: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+.dropdown .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+
+
+.dropdown2{
+    display: inline-block;
+}
+.dropdown2 button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown2 .link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown2 .dropdown-content2{
+    display:none;
+    position: absolute;
+    background-color:rgb(210, 210, 210);
+    min-width: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown2:hover .dropdown-content2{
+    display: block;
+}
+
+.dropdown2:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+.dropdown2 .link:hover{
+    background-color:rgb(182, 182, 182)
+}
+
+
+
+.dropdown3{
+    display: inline-block;
+}
+.dropdown3 button{
+    background-color:rgb(230, 230, 230);
+    color: grey;
+    border: none;
+    position: relative;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown3 .link{
+    display: block;
+    color: grey;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown3:hover button{
+    background-color:rgb(197, 197, 197);
+}
+
+
+
+
+
+
+h1{
+  background-color: #fcf6a2;
+  text-align: center;
+}
+
+.bold{
+  font-size: large;
+}
+.definition {
+    color: rgb(0, 0, 153);
+}
+
+.definition1 {
+    color: rgb(0, 149, 194);
+}
+
+.answer1{
+    border: 1px solid red;
+    padding: 3 3 ;
+    border-radius: 0.5em;
+}
+
+.answer{
+    border: 1px solid red;
+    padding: 0 3 ;
+    border-radius: 0.5em;
+}
+
+.answerblue{
+    border: 1px solid rgb(0, 195, 255);
+    padding: 0 3 ;
+    border-radius: 0.5em;
+} 
+
+.textleft {
+  text-align: left;
+}
+
+body {
+    font-family: arial, sans-serif;
+    padding: 20 30;
+}
+
+
+.important1 {
+    text-decoration: underline;
+    text-decoration-color:  red ;
+    text-decoration-thickness: 2px;
+}
+
+.important {
+    
+    text-decoration-thickness: 2px;
+    color: red;
+    font-size: x-large;
+    
+}
+
+.box {
+      border: 1px solid black; /* Border thickness and color */
+      padding: 4px;            /* Space between text and border */
+      display: inline-block;   /* Keeps it inline with other text */
+      border-radius: 4px;      /* Optional: rounded corners */
+      max-width: 350;
+    }
+
+.outlined-text {
+      font-size: xx-large;
+      color: rgb(255, 255, 255);                     /* Fill color */
+      -webkit-text-stroke: 1px rgb(0, 0, 0);   /* Outline: width and color */
+      font-weight: bold;
+    }
+
+
+
+
+.container {
+  display: flex;
+  gap: 20px; /* space between the two items */
+}
+
+.container1 {
+  display: flex;
+  gap: 0px; /* space between the two items */
+  gap:inherit;
+}
+
+.container3 {
+  display: flex;
+  gap: 20px; /* space between the two items */
+  justify-content: space-between; /* Pushes items to far left and right */
+}
+
+
+
+
+.left {
+    padding-right: 100;
+}
+
+.left4boxblack {
+    padding-right: 100;
+    margin-right: 300;
+    border: solid rgb(0, 0, 0);
+    padding: 0 10 0 10;
+}
+
+.middle1 {
+    padding-top: 20;
+}
+
+.left1 {
+    padding-right: 100;
+    padding-left: 38;
+}
+
+.left11 {
+    padding-right: 100;
+    padding-left: 30;
+    text-align: left;
+}
+
+.leftshort {
+    padding-right: 10;
+}
+
+
+.leftE {
+  padding-right: 5;
+}
+
+.paddingtop {
+  padding-top: 10;
+}
+
+
+
+
+.right1 {
+    padding-left: 100;
+}
+
+.right11 {
+    padding-left: 100;
+    text-align: right;
+}
+
+.right2 {
+    padding-left: 200;
+}
+
+.right4box {
+    margin-left: 300;
+    border: solid red;
+    padding: 0 10 0 10;
+}
+
+.right5box {
+    margin-left: 100;
+    border: solid red;
+   text-align: center;
+   padding: 10px;
+}
+
+.right4boxblack {
+    
+    border: 2px solid grey;
+    padding: 0 10 0 10;
+    border-radius: 20px;
+    padding: 0 10 0 10;
+    
+}
+
+
+.rightboxblack1 {
+    display: inline-block;
+    border: 2px solid rgb(0, 49, 139);
+    padding: 0 10 0 10;
+    border-radius: 10px;
+    
+}
+
+.right3 {
+    padding-left: 0;
+}
+
+
+.rightimage {
+  position: fixed;
+  right: 0;
+  top: 10;
+  height: 100px; /* adjust as needed */
+}
+
+
+.note {
+    color: rgb(228, 0, 0);
+}
+
+.t {
+  
+  padding: auto;
+  background-color: rgb(255, 171, 138);
+}
+
+.pable {
+  padding-right: 10px;
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titleblue {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 119, 255);
+}
+
+.titlegreen {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 173, 52);
+}
+
+
+.table {
+  border-collapse: collapse;  /* Combines all borders into one grid */
+  width: 60%;
+  margin: 20px auto;
+}
+
+.table1 {
+  border-collapse: collapse;  /* Combines all borders into one grid */
+  width: 100%;
+  margin: 20px auto;
+}
+
+
+th, .notcenter {
+  border: 1px solid #000;     /* Black border for grid lines */
+  padding: 10px;
+  text-align: center;
+  
+}
+
+th, .center {
+  border: 1px solid #000;     /* Black border for grid lines */
+  padding: 10px;
+  text-align: center;
+  
+}
+
+th {
+  background-color: #d3d3d3;   /* Light gray header background */
+}
+
+.blueheading{
+  background-color: #ace0f5;
+}
+
+.yellowheading{
+  background-color: #fcf6a2;
+}
+
+
+.notcenter {
+  text-align:left;
+}
+
+.center {
+  text-align:center;
+}
+
+
+
+
+
+.body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+      margin: 0;
+    }
+
+    .venn {
+      position: relative;
+      width: 300px;
+      height: 200px;
+    }
+
+    .circle {
+      position: absolute;
+      width: 250px;
+      height: 350px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .circle1 {
+      background-color: rgba(255, 0, 0, 0.315); /* red */
+      left: 0;
+      top: 25px;
+      padding-right: 100px;
+      
+    }
+
+    .circle2 {
+      background-color: rgba(0, 68, 255, 0.315); /* blue */
+      left: 230px;
+      top: 25px;
+      padding-left: 100px;
+      
+    }
+
+    .overlap {
+      position: absolute;
+      width: 120px;
+      height: 100px;
+      left: 235px; /* Centered between both circles */
+      top: 150px;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 2; /* on top of circles */
+      pointer-events: none; /* prevent accidental clicks */
+    }
+
+    .black {
+      color: rgb(94, 94, 94);
+    }
+
+    .formula{
+    font-size: large;
+    color:  rgb(0, 68, 255);
+    
+    padding: 1 5;
+}
+
+.formula1{
+    color:  rgb(0, 0, 0);
+    padding: 1 5;
+}
+
+
+.acids{
+  background-color: rgb(0, 128, 0);
+  color: white;
+  font-size: x-large;
+  text-align:center;
+  padding: 10 10;
+}
+
+.grey{
+  color: grey;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: rgb(255, 0, 0);
+}
+
+.blue{
+  color: rgb(0, 68, 255);
+}
+
+.yellow{
+  background-color: rgb(0, 68, 255);
+}
+
+.fraction {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .fraction .top {
+      display: block;
+      border-bottom: 3px solid  rgb(0, 68, 255);
+      padding: 0 4px;
+    }
+
+    .fraction .bottom {
+      display: block;
+      padding: 0 4px;
+    }
+
+    .fraction .top1 {
+      display: block;
+      border-bottom: 3px solid black;
+      padding: 0 4px;
+    }
+    .fraction .top2 {
+      display: block;
+      border-bottom: 1px solid black;
+      padding: 0 4px;
+    }
+
+
+
+
+    .bodies {
+      font-family: "Segoe UI", sans-serif;
+      background: #fdfdfd;
+      
+      justify-content: center;
+      padding: 40px;
+    }
+    .tables {
+      border: 1px solid #000ba7;
+      padding: 20px;
+      width: 520px;
+      text-align: center;
+      background-color: rgb(195, 208, 238);
+      color: #000ba7;
+    }
+    
+    .headers {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+
+    .reactive {
+      color: rgb(0, 114, 0);
+      font-weight: 500;
+    }
+
+    .less-reactive {
+      color: red;
+      font-weight: 500;
+    }
+
+    .boldblack {
+      color: #000;
+      font-size: large;
+    }
+
+  
+
+
+    .horizontaltable {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    
+
+    .td {
+      border: 1px solid #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .tf {
+      border: 1px solid #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .tf {
+      background-color: #f0f0f0;
+    }
+
+    .td {
+      background-color: #fffefe;
+    }
+
+
+
+
+
+.containerburger {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.leftburger {
+  flex: 1; /* takes remaining space */
+  padding: 20px;
+}
+
+.image-wrapper {
+  
+  padding: 20px;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.important2 {
+    background-color: yellow;
+}
+
+.highlightgreen {
+  background-color: rgba(38, 241, 38, 0.699); 
+}
+
+.highlightorange {
+  background-color: rgba(241, 102, 38, 0.699); 
+}
+
+.highlightblue {
+  background-color: rgba(38, 194, 241, 0.699); 
+}
+
+
+
+
+
+.boxx-containerr {
+  display: flex; /* <--- THIS makes boxes side by side */
+  gap: 20px; /* space between boxes */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically if needed */
+  text-align: center;
+}
+
+.boxx {
+  height: 150px;
+  background-color: hsl(54, 100%, 80%);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+  padding-left: 20;
+  padding-right: 20;
+}
+
+.boxx:hover {
+  transform: scale(1.05);
+}
+
+
+
+.boxxred-containerr {
+  display: flex; /* <--- THIS makes boxes side by side */
+  gap: 20px; /* space between boxes */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically if needed */
+  text-align: center;
+}
+
+.boxxred {
+  height: 150px;
+  background-color: hsla(32, 100%, 71%, 0.877);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+  padding-left: 20;
+  padding-right: 20;
+}
+
+.boxxred:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.crossed-word {
+  position: relative;
+  display: inline-block;
+}
+
+.crossed-word::after {
+  content: '';
+  position: absolute;
+  top: 11;
+  left: 60;
+  width: 30%;
+  height: 2px; /* Line thickness */
+  background-color: rgb(252, 2, 2);
+  transform: rotate(30deg); /* Rotating the line to make it diagonal */
+  transform-origin: center;
+}
+
+
+.crossed-word1 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.crossed-word1::after {
+  content: '';
+  position: absolute;
+  top: 7;
+  left: -3;
+  width: 130%;
+  height: 2px; /* Line thickness */
+  background-color: rgb(252, 2, 2);
+  transform: rotate(25deg); /* Rotating the line to make it diagonal */
+  transform-origin: center;
+}
+
+
+.crossed-word0 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.crossed-word0::after {
+  content: '';
+  position: absolute;
+  top: 7;
+  left: -3;
+  width: 130%;
+  height: 2px; /* Line thickness */
+  background-color: rgb(252, 2, 2);
+  transform: rotate(25deg); /* Rotating the line to make it diagonal */
+  transform-origin: center;
+}
+
+
+.crossed-word3 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.crossed-word3::after {
+  content: '';
+  position: absolute;
+  top: 11;
+  left: -3;
+  width: 130%;
+  height: 2px; /* Line thickness */
+  background-color: rgb(252, 2, 2);
+  transform: rotate(25deg); /* Rotating the line to make it diagonal */
+  transform-origin: center;
+}
+
+
+.crossed-word2 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.crossed-word2::after {
+  content: '';
+  position: absolute;
+  top: 8;
+  left: -3;
+  width: 180%;
+  height: 2px; /* Line thickness */
+  background-color: rgb(252, 2, 2);
+  transform: rotate(25deg); /* Rotating the line to make it diagonal */
+  transform-origin: center;
+}
+
+
+
+
+.arrow {
+  font-size: xx-large;
+  position: relative;
+  top: 15px; /* Move down by 10px */
+}
+
+
+
+
+.highlightlightyellow {
+  background-color: #fff780;
+}
+
+
+body.dark-mode {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+}
+
+.darkmode {
+    position: relative;
+    background: none;
+    color: inherit;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
